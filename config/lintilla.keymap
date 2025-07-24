@@ -21,12 +21,12 @@
 
         NumLayer {
             bindings = <&mo 2>;
-            key-positions = <39 40>;
+            key-positions = <40 41>;
         };
 
         NavLayer {
             bindings = <&mo 1>;
-            key-positions = <38 37>;
+            key-positions = <37 36>;
         };
 
         EditLayer {
