@@ -98,9 +98,9 @@
 
         alpha {
             bindings = <
-                    &kp ESC                                                                                                                                                                      &kp SYSREQ
-&mt LCTRL LEFT_WIN  &mt LS(Q) Q  &mt LS(W) W  &mt LS(F) F      &mt LS(P) P         &mt LS(B) B  &mt QUESTION SLASH                      &mt LS(J) J  &mt LS(L) L           &mt LS(U) U           &mt LS(Y) Y  &kp C_VOLUME_UP
-&kp LEFT_SHIFT      &mt LS(A) A  &mt LS(R) R  &mt LS(S) S      &mt LS(T) T         &mt LS(G) G  &mt DOUBLE_QUOTES SQT                   &mt LS(M) M  &mt LS(N) N           &mt LS(E) E           &mt LS(I) I  &mt K_MUTE C_VOL_DN
+                    &kp ESC                                                                                                                                                                      &kp LG(LS(S))
+&mt LCTRL LEFT_WIN  &mt LS(Q) Q  &mt LS(W) W  &mt LS(F) F      &mt LS(P) P         &mt LS(B) B  &mt QUESTION SLASH                      &mt LS(J) J  &mt LS(L) L           &mt LS(U) U           &mt LS(Y) Y    &kp C_VOLUME_UP
+&kp LEFT_SHIFT      &mt LS(A) A  &mt LS(R) R  &mt LS(S) S      &mt LS(T) T         &mt LS(G) G  &mt DOUBLE_QUOTES SQT                   &mt LS(M) M  &mt LS(N) N           &mt LS(E) E           &mt LS(I) I    &mt K_MUTE C_VOL_DN
                     &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C      &mt LS(D) D         &mt LS(V) V  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt LS(K) K  &mt LS(H) H           &mt UNDERSCORE MINUS  &mt LS(O) O
                                               &mt COLON COMMA  &mt LEFT_ALT SPACE  &kp RET      &kp BSPC                                &kp SPACE    &mt SEMICOLON PERIOD
             >;
@@ -118,11 +118,11 @@
 
         layer_4 {
             bindings = <
-                           &none                                                                                                                                                                                                       &none
-&none                      &none                     &none                 &none                  &none                &none           &none                           &mt PLUS EQUAL        &none            &none                    &none                     &none
-&mt PIPE NON_US_BACKSLASH  &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH LS(NUMBER_3)  &mt DOLLAR NUMBER_4  &mt PERCENT N5  &none                           &mt AMPERSAND N7      &mt ASTERISK N8  &mt LEFT_PARENTHESIS N9  &mt RIGHT_PARENTHESIS N0  &none
-                           &none                     &none                 &none                  &none                &none           &mt RIGHT_BRACKET LEFT_BRACKET  &mt UNDERSCORE MINUS  &none            &none                    &none
-                                                                           &mt CARET NUMBER_6     &none                &none           &none                           &none                 &none
+                           &none                                                                                                                                                                                                    &none
+&none                      &none                     &none                 &none               &none                &none           &none                           &mt PLUS EQUAL        &none            &none                    &none                     &none
+&mt PIPE NON_US_BACKSLASH  &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3   &mt DOLLAR NUMBER_4  &mt PERCENT N5  &none                           &mt AMPERSAND N7      &mt ASTERISK N8  &mt LEFT_PARENTHESIS N9  &mt RIGHT_PARENTHESIS N0  &kp PERIOD
+                           &none                     &none                 &none               &none                &none           &mt RIGHT_BRACKET LEFT_BRACKET  &mt UNDERSCORE MINUS  &none            &none                    &none
+                                                                           &mt CARET NUMBER_6  &none                &none           &none                           &none                 &none
             >;
         };
 
