@@ -43,6 +43,26 @@
             bindings = <&you>;
             key-positions = <12 11>;
         };
+
+        bt0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <3 4>;
+        };
+
+        bt1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <15 16>;
+        };
+
+        bt2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <26 27>;
+        };
+
+        btclr {
+            bindings = <&bt BT_CLR>;
+            key-positions = <14 3>;
+        };
     };
 
     behaviors {
@@ -160,11 +180,11 @@
 
         bluetooth {
             bindings = <
-                &trans                                                                                          &trans
-&bt BT_CLR      &trans  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &trans  &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR_ALL  &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans
-                                      &trans        &trans        &trans        &trans  &trans  &trans
+                &trans                                                                                                &trans
+&bt BT_CLR      &trans        &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
+                &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans
+                                            &trans        &trans        &trans        &trans  &trans  &trans
             >;
         };
     };
