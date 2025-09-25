@@ -38,6 +38,11 @@
             bindings = <&to 4>;
             key-positions = <32 33>;
         };
+
+        yuyou {
+            bindings = <&you>;
+            key-positions = <12 11>;
+        };
     };
 
     behaviors {
@@ -90,6 +95,13 @@
             #binding-cells = <0>;
             bindings = <&kp LG(R) &kp C &kp M &kp D &kp ENTER>;
             label = "CMD";
+        };
+
+        you: you {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp O &kp U>;
+            label = "YOU";
         };
     };
 
