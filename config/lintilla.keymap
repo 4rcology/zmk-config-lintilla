@@ -101,7 +101,7 @@
             >;
         };
 
-        layer_3 {
+        nav {
             bindings = <
          &none                                                                                                             &none
 &none    &none             &none              &kp LC(LS(T))    &kp LC(W)    &none  &none  &kp TAB   &kp LS(TAB)  &none     &none      &none
@@ -111,19 +111,19 @@
             >;
         };
 
-        layer_4 {
+        num {
             bindings = <
-                           &none                                                                                                                                                                                                    &none
-&mt TILDE GRAVE            &none                     &none                 &none               &none                &none           &mt PIPE BACKSLASH              &mt PLUS EQUAL        &none            &none                    &none                     &none
-&mt PIPE NON_US_BACKSLASH  &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3   &mt DOLLAR NUMBER_4  &mt PERCENT N5  &mt RIGHT_BRACE LEFT_BRACE      &mt AMPERSAND N7      &mt ASTERISK N8  &mt LEFT_PARENTHESIS N9  &mt RIGHT_PARENTHESIS N0  &kp PERIOD
-                           &none                     &none                 &none               &none                &none           &mt RIGHT_BRACKET LEFT_BRACKET  &mt UNDERSCORE MINUS  &none            &none                    &none
-                                                                           &mt CARET NUMBER_6  &none                &none           &none                           &none                 &none
+                           &none                                                                                                                                                                                                &none
+&mt TILDE GRAVE            &none                     &none                 &none               &none                &none           &mt PIPE BACKSLASH              &mt PLUS EQUAL    &none            &none                    &none                     &none
+&mt PIPE NON_US_BACKSLASH  &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3   &mt DOLLAR NUMBER_4  &mt PERCENT N5  &mt RIGHT_BRACE LEFT_BRACE      &mt AMPERSAND N7  &mt ASTERISK N8  &mt LEFT_PARENTHESIS N9  &mt RIGHT_PARENTHESIS N0  &kp PERIOD
+                           &none                     &none                 &none               &none                &none           &mt RIGHT_BRACKET LEFT_BRACKET  &none             &none            &kp MINUS                &none
+                                                                           &mt CARET NUMBER_6  &none                &none           &none                           &none             &none
             >;
         };
 
         layer_5 {
             bindings = <
-       &kp K_POWER                                                                                              &kp K_SLEEP
+       &kp C_POWER                                                                                              &kp C_SLEEP
 &none  &none           &none      &none          &none      &none  &none       &kp LG(R)  &CMD       &none      &none        &none
 &none  &kp LA(LS(N5))  &kp LC(I)  &kp LC(U)      &kp LC(B)  &none  &none       &kp LC(Z)  &kp LC(Y)  &kp LC(F)  &kp LC(A)    &none
        &none           &none      &kp LC(LS(V))  &kp LC(V)  &none  &InstPaste  &kp LC(C)  &kp LC(X)  &none      &none
@@ -133,11 +133,11 @@
 
         layer_6 {
             bindings = <
-         &none                                                                                                                              &none
-&none    &none             &none              &kp LC(LS(W))    &kp LC(W)     &none  &none     &to 0           &kp UP        &kp DOWN        &none            &none
-&kp ESC  &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &kp LS(LC(TAB))  &kp LC(TAB)   &none  &none     &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
-         &none             &none              &kp TAB          &none         &none  &none     &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT
-                                              &none            &kp LEFT_ALT  &none  &mkp MB3  &mkp MB2        &mkp MB1
+                    &none                                                                                                                              &none
+&mt LCTRL LEFT_WIN  &none             &none              &kp LC(LS(W))    &kp LC(W)     &none  &none     &to 0           &kp UP        &kp DOWN        &none            &none
+&kp LEFT_SHIFT      &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &kp LS(LC(TAB))  &kp LC(TAB)   &none  &none     &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
+                    &none             &none              &kp TAB          &none         &none  &none     &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT
+                                                         &none            &kp LEFT_ALT  &none  &mkp MB3  &mkp MB2        &mkp MB1
             >;
         };
 
